@@ -41,7 +41,9 @@
             ],
             "youtube_interaction_videos": [
                 "s1I4Vxv61QA",
-                "pbj1ungrZQA"
+                "pvWVaMaljJE",
+                "pbj1ungrZQA",
+                "5kn9_QrVrPU"
             ]
         },
         {
@@ -58,6 +60,20 @@
                     "handle": "@livingstoneschristianrefor6073",
                     "description": "Video from Living Stones CRC"
                 }
+            ]
+        },
+        {
+            "name": "John Vervaeke",
+            "about": "John Vervaeke, PhD is a philosopher and cognitive scientist. He is an associate professor and award-winning lecturer at the University of Toronto, teaching in the Department of Psychology. His work and research is far-ranging, including topics such as human intelligence, rationality, wisdom, and AI.\n Dr. Vervaeke has been a leading intellectual observer of the modern meaning crisis: the loss of a spiritual worldview in the West, and the decline of wisdom traditions that help individuals find meaning in their lives. His online lectures and practices integrate teachings from many different disciplines, including philosophy, psychology, religion, and cutting edge cognitive science.\n Join our Patreon to support John's work, join in Live Q&A sessions, get early access to videos and more!",
+            "youtube_channels": [
+                {
+                    "handle": "@JohnVervaeke",
+                    "description": "John Vervaeke, PhD is a philosopher and cognitive scientist. He is an associate professor and award-winning lecturer at the University of Toronto, teaching in the Department of Psychology. His work and research is far-ranging, including topics such as human intelligence, rationality, wisdom, and AI.\n Dr. Vervaeke has been a leading intellectual observer of the modern meaning crisis: the loss of a spiritual worldview in the West, and the decline of wisdom traditions that help individuals find meaning in their lives. His online lectures and practices integrate teachings from many different disciplines, including philosophy, psychology, religion, and cutting edge cognitive science.\n Join our Patreon to support John's work, join in Live Q&A sessions, get early access to videos and more!"
+                }
+            ],
+            "youtube_interaction_videos": [
+                "GmGOqkHQCIk",
+                "FhJV2Fpbovo"
             ]
         },
         {
@@ -111,6 +127,7 @@
         },
         {
             "name": "Jacob Faturechi",
+            "about": "I mostly make videos about the Hebrew Bible.",
             "youtube_channels": [
                 {
                     "handle": "@faturechi",
@@ -128,6 +145,19 @@
             "youtube_interaction_videos": [
                 "s1I4Vxv61QA"
             ]
+        },
+        {
+            "name": "Tyler Hollett",
+            "youtube_channels": [
+                {
+                    "handle": "@ThePlebistocrat"
+                }
+            ],
+            "youtube_interaction_videos": [
+                "GmGOqkHQCIk",
+                "FhJV2Fpbovo",
+                "5kn9_QrVrPU"
+            ]
         }
     ],
     "videos": {
@@ -139,6 +169,14 @@
             "date": "2021-01-01",
             "people": ["Gavin Palmer", "Mercury.Black.", "GrimGriz"]
         },
+        "pvWVaMaljJE": {
+            "id": "pvWVaMaljJE",
+            "channel": "@GrimGriz",
+            "title": "HeroLFG - Live in Lemon Land",
+            "link": "https://www.youtube.com/watch?v=pvWVaMaljJE",
+            "date": "2021-01-27",
+            "people": ["Gavin Palmer", "GrimGriz"]
+        },
         "pbj1ungrZQA": {
             "id": "pbj1ungrZQA",
             "channel": "@herolfg",
@@ -146,6 +184,30 @@
             "link": "https://www.youtube.com/watch?v=pbj1ungrZQA",
             "date": "2021-02-27",
             "people": ["Gavin Palmer", "Jacob Faturechi"]
+        },
+        "5kn9_QrVrPU": {
+            "id": "5kn9_QrVrPU",
+            "channel": "@GrimGriz",
+            "title": "Return to Lemonland - Potato People and Huck Finn w/ HeroLFG",
+            "link": "https://www.youtube.com/watch?v=5kn9_QrVrPU",
+            "date": "2021-05-12",
+            "people": ["Gavin Palmer", "GrimGriz", "Tyler Hollett"]
+        },
+        "GmGOqkHQCIk": {
+            "id": "GmGOqkHQCIk",
+            "channel": "@JohnVervaeke",
+            "title": "Dialogos on the Discord with Tyler Hollett - Voices with Vervaeeke",
+            "link": "https://www.youtube.com/watch?v=GmGOqkHQCIk",
+            "date": "2020-05-08",
+            "people": ["John Vervaeke", "Tyler Hollett"]
+        },
+        "FhJV2Fpbovo": {
+            "id": "FhJV2Fpbovo",
+            "channel": "@JohnVervaeke",
+            "title": "What is happening in this corner of the internet? w/ Tyler Hollett - Voices with Vervaeke",
+            "link": "https://www.youtube.com/watch?v=FhJV2Fpbovo",
+            "date": "2021-01-01",
+            "people": ["John Vervaeke", "Tyler Hollett"]
         }
     }
 }
