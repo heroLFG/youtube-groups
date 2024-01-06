@@ -1,0 +1,25 @@
+{
+    "people": [
+        {
+            "id": 1,
+            "name": "Gavin Palmer",
+            "interests": [
+                "practicing loving people",
+                "technology"
+            ],
+            "about": "Husband, Father, Engineer, and Christish",
+            "youtube_channels": [
+                {
+                    "handle": "@RightInChrist",
+                    "description": "I decided to practice making Jesus my king on October 12, 2023. My videos will attempt to point people towards a relationship with God through Jesus who will go after the lost sheep. My king goes after your worst enemy to give them the best gift which is to know God.",
+                    "interests": ["practicing loving people", "technology", "play"]
+                },
+                {
+                    "handle": "@herolfg",
+                    "description": "Seeking the ideal.",
+                    "interests": ["technology"]
+                }
+            ]
+        }
+    ]
+}
