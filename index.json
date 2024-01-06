@@ -47,7 +47,9 @@
                 "FoVca00pe_o",
                 "xH1-4-Qepz8",
                 "zUJ2jNxrlX8",
-                "q7clE0YFb3U"
+                "q7clE0YFb3U",
+                "mPbUTVO2O8w",
+                "V6lwRfG9KXU"
             ]
         },
         {
@@ -86,6 +88,9 @@
                 {
                     "handle": "@thefridaymorningnameless7623"
                 }
+            ],
+            "youtube_interaction_videos": [
+                "mPbUTVO2O8w"
             ]
         },
         {
@@ -172,7 +177,8 @@
                 "https://convective-heat-engine.github.io/"
             ],
             "youtube_interaction_videos": [
-                "xH1-4-Qepz8"
+                "xH1-4-Qepz8",
+                "V6lwRfG9KXU"
             ]
         },
         {
@@ -277,6 +283,22 @@
             "link": "https://www.youtube.com/watch?v=q7clE0YFb3U",
             "date": "2021-11-10",
             "people": ["Gavin Palmer", "Kimberly Palmer"]
+        },
+        "mPbUTVO2O8w": {
+            "id": "mPbUTVO2O8w",
+            "channel": "@randosunited3288",
+            "title": "Mind Reading - Gavin and Chad",
+            "link": "https://www.youtube.com/watch?v=mPbUTVO2O8w",
+            "date": "2021-11-14",
+            "people": ["Gavin Palmer", "Chad (the Alcoholic)"]
+        },
+        "V6lwRfG9KXU": {
+            "id": "V6lwRfG9KXU",
+            "channel": "@randosunited3288",
+            "title": "The Anonymous King ‐ Jason and Gavin",
+            "link": "https://www.youtube.com/watch?v=V6lwRfG9KXU",
+            "date": "2021-11-23",
+            "people": ["Gavin Palmer", "Jason Delport"]
         }
     }
 }
