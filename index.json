@@ -46,7 +46,8 @@
                 "5kn9_QrVrPU",
                 "FoVca00pe_o",
                 "xH1-4-Qepz8",
-                "zUJ2jNxrlX8"
+                "zUJ2jNxrlX8",
+                "q7clE0YFb3U"
             ]
         },
         {
@@ -185,6 +186,15 @@
             "youtube_interaction_videos": [
                 "zUJ2jNxrlX8"
             ]
+        },
+        {
+            "name": "Kimberly Palmer",
+            "links": [
+                "https://www.instagram.com/the.rising.chefs/reel/CtY4ni2N1fp/"
+            ],
+            "youtube_interaction_videos": [
+                "q7clE0YFb3U"
+            ]
         }
     ],
     "videos": {
@@ -259,6 +269,14 @@
             "link": "https://www.youtube.com/watch?v=zUJ2jNxrlX8",
             "date": "2021-11-10",
             "people": ["Gavin Palmer", "Chris Petkau"]
+        },
+        "q7clE0YFb3U": {
+            "id": "q7clE0YFb3U",
+            "channel": "@randosunited3288",
+            "title": "Coffee with Kim and Gavin ‐ Husband and Wife share their morning coffee convo",
+            "link": "https://www.youtube.com/watch?v=q7clE0YFb3U",
+            "date": "2021-11-10",
+            "people": ["Gavin Palmer", "Kimberly Palmer"]
         }
     }
 }

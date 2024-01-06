@@ -59,7 +59,15 @@ window.searchChannelsByInterests = searchChannelsByInterests;
 
 // Function to generate the HTML content for a person
 function generatePersonHTML(person, videos) {
-  console.log(person.name);
+  let about = '';
+  if (person.about) {
+    about = `
+    <div class="">
+      <h2>About</h2>
+      <p>${person.about}</p>
+    </div>
+    `;
+  }
   let links = '';
   if (person.links) {
     links = `
@@ -123,10 +131,7 @@ function generatePersonHTML(person, videos) {
   <header>
     <h1>${person.name}</h1>
   </header>
-  <div class="">
-    <h2>About</h2>
-    <p>${person.about}</p>
-  </div>
+  ${about}
   <main>${links}${youtube_channels}${interests}${youtube_attention_giving}${youtube_interaction_videos}</main>
   <!-- Footer and additional content -->
   <footer class="footer"></footer>
