@@ -45,7 +45,8 @@
                 "pbj1ungrZQA",
                 "5kn9_QrVrPU",
                 "FoVca00pe_o",
-                "xH1-4-Qepz8"
+                "xH1-4-Qepz8",
+                "zUJ2jNxrlX8"
             ]
         },
         {
@@ -172,6 +173,18 @@
             "youtube_interaction_videos": [
                 "xH1-4-Qepz8"
             ]
+        },
+        {
+            "name": "Chris Petkau",
+            "youtube_channels": [
+                {
+                    "handle": "@the-chris-show",
+                    "description": "Not everybody's name is Chris and not everybody has a show. But even less people named Chris have a show. My name is Chris, and this is my show. "
+                }
+            ],
+            "youtube_interaction_videos": [
+                "zUJ2jNxrlX8"
+            ]
         }
     ],
     "videos": {
@@ -238,6 +251,14 @@
             "link": "https://www.youtube.com/watch?v=xH1-4-Qepz8",
             "date": "2021-10-29",
             "people": ["Gavin Palmer", "Jason Delport"]
+        },
+        "zUJ2jNxrlX8": {
+            "id": "zUJ2jNxrlX8",
+            "channel": "@the-chris-show",
+            "title": "Lets Talk About Solutions - Hero LFG",
+            "link": "https://www.youtube.com/watch?v=zUJ2jNxrlX8",
+            "date": "2021-11-10",
+            "people": ["Gavin Palmer", "Chris Petkau"]
         }
     }
 }
