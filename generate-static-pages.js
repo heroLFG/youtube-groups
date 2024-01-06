@@ -2,7 +2,9 @@
 
 const fs = require('fs');
 
-function parseIndex(people, channels) {
+function parseIndex() {
+  const people = [];
+  const channels = [];
   const jsonData = fs.readFileSync('index.json', 'utf8');
   const obj = JSON.parse(jsonData);
   obj.people.forEach(person => {
@@ -14,7 +16,12 @@ function parseIndex(people, channels) {
       };
       channels.push(channel);
     })
-  })
+  });
+  return {
+    people,
+    channels,
+    videos: obj.videos
+  };
 }
 
 function generateIndexJS(people, channels) {
@@ -49,7 +56,7 @@ window.searchChannelsByInterests = searchChannelsByInterests;
 }
 
 // Function to generate the HTML content for a person
-function generatePersonHTML(person) {
+function generatePersonHTML(person, videos) {
   let youtube_channels = '';
   if (person.youtube_channels) {
     youtube_channels = `
@@ -65,6 +72,15 @@ function generatePersonHTML(person) {
     <h3>Interests</h3>
     <ul>
       ${person.interests.map(interest => `<li>${interest}</li>`).join('')}
+    </ul>
+    `;
+  }
+  let youtube_interaction_videos = '';
+  if (person.youtube_interaction_videos) {
+    youtube_interaction_videos = `
+    <h3>YouTube Interaction Videos</h3>
+    <ul>
+      ${person.youtube_interaction_videos.map(yt => `<li><a href="${videos[yt].link}">${videos[yt].title}</a></li>`).join('')}
     </ul>
     `;
   }
@@ -90,7 +106,7 @@ function generatePersonHTML(person) {
     <h2>About</h2>
     <p>${person.about}</p>
   </div>
-  <main>${youtube_channels}${interests}</main>
+  <main>${youtube_channels}${interests}${youtube_interaction_videos}</main>
   <!-- Footer and additional content -->
   <footer class="footer"></footer>
 </body>
@@ -140,9 +156,11 @@ function generateChannelHTML(channel) {
 
 // Function to generate all static files
 function generateStaticFiles() {
-  const people = [],
-    channels = [];
-  parseIndex(people, channels);
+  const {
+    people,
+    channels,
+    videos
+  } = parseIndex();
 
   // Generate index.js
   const filename = `index.js`;
@@ -153,7 +171,7 @@ function generateStaticFiles() {
   // Generate HTML files for people
   people.forEach(person => {
     const filename = `people/${person.name.toLowerCase().split(' ').join('-')}.html`;
-    const content = generatePersonHTML(person);
+    const content = generatePersonHTML(person, videos);
     fs.writeFileSync(filename, content);
     console.log(`Generated file for ${person.name}`);
   });

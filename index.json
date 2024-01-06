@@ -21,7 +21,7 @@
                 }
             ],
             "youtube_interaction_videos": [
-                "https://www.youtube.com/watch?v=s1I4Vxv61QA"
+                "s1I4Vxv61QA"
             ]
         },
         {
@@ -32,6 +32,9 @@
                     "handle": "@GrimGriz",
                     "description": "Even Broken Clocks are right twice a day."
                 }
+            ],
+            "youtube_interaction_videos": [
+                "s1I4Vxv61QA"
             ]
         },
         {
@@ -41,14 +44,20 @@
                 {
                     "handle": "@Mercury.Black."
                 }
+            ],
+            "youtube_interaction_videos": [
+                "s1I4Vxv61QA"
             ]
         }
     ],
-    "videos": [
-        {
+    "videos": {
+        "s1I4Vxv61QA": {
             "id": "s1I4Vxv61QA",
+            "channel": "@herolfg",
+            "title": "Sorting Myself Out with Mercury, Gavin, and GrimGriz",
             "link": "https://www.youtube.com/watch?v=s1I4Vxv61QA",
-            "date": "2021-01-01"
+            "date": "2021-01-01",
+            "people": [1, 2, 3]
         }
-    ]
+    }
 }
