@@ -18,19 +18,8 @@ function parseIndex(people, channels) {
 }
 
 function generateIndexJS(people, channels) {
-  // Convert the object to a JSON string
-  let peopleString = JSON.stringify(people);
-  // Replace double quotes with single quotes
-  peopleJsonString = peopleString.replace(/"([^"]+)":/g, '$1:');
-  // Replace double quotes for array elements
-  peopleJsonString = peopleJsonString.replace(/"\b/g, "'").replace(/\b"/g, "'");
-  // Convert the object to a JSON string
-  let channelsString = JSON.stringify(channels);
-  // Replace double quotes with single quotes
-  channelsJsonString = channelsString.replace(/"([^"]+)":/g, '$1:');
-  // Replace double quotes for array elements
-  channelsJsonString = channelsJsonString.replace(/"\b/g, "'").replace(/\b"/g, "'");
-
+  let peopleJsonString = JSON.stringify(people);
+  let channelsJsonString = JSON.stringify(channels);
 
   return `
 // generated code
@@ -61,57 +50,90 @@ window.searchChannelsByInterests = searchChannelsByInterests;
 
 // Function to generate the HTML content for a person
 function generatePersonHTML(person) {
+  let youtube_channels = '';
+  if (person.youtube_channels) {
+    youtube_channels = `
+    <h3>YouTube Channels</h3>
+    <ul>
+      ${person.youtube_channels.map(channel => `<li><a href="../channels/${channel.handle.substring(1).toLowerCase()}.html">${channel.handle}</a></li>`).join('')}
+    </ul>
+    `;
+  }
+  let interests = '';
+  if (person.interests) {
+    interests = `
+    <h3>Interests</h3>
+    <ul>
+      ${person.interests.map(interest => `<li>${interest}</li>`).join('')}
+    </ul>
+    `;
+  }
+
   return `
 <!-- generated code -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${person.name} - Profile</title>
-  <!-- Include shared styles and scripts -->
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+  <div class="navigation-back">
+    <a href="index.html">← Back to People</a>
+  </div>
   <header>
     <h1>${person.name}</h1>
-    <p>${person.about}</p>
   </header>
-  <main>
-    <h2>Interests</h2>
-    <ul>
-      ${person.interests.map(interest => `<li>${interest}</li>`).join('')}
-    </ul>
-  </main>
+  <div class="">
+    <h2>About</h2>
+    <p>${person.about}</p>
+  </div>
+  <main>${youtube_channels}${interests}</main>
   <!-- Footer and additional content -->
+  <footer class="footer"></footer>
 </body>
 </html>`;
 }
 
 // Function to generate the HTML content for a channel
 function generateChannelHTML(channel) {
+  let interests = '';
+  if (channel.interests) {
+    interests = `
+    <h3>Interests</h3>
+    <ul>
+      ${channel.interests.map(interest => `<li>${interest}</li>`).join('')}
+    </ul>
+`;
+  }
   const owner = channel.owner;
   return `
 <!-- generated code -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${channel.handle}</title>
-  <!-- Include shared styles and scripts -->
+  <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+  <div class="navigation-back">
+    <a href="index.html">← Back to Channels</a>
+  </div>
   <header>
     <h1>${channel.handle}</h1>
-    <p>Owned by ${owner.name}</p>
+    <p>Owned by <a href="../people/${channel.owner.name.toLowerCase().split(' ').join('-')}.html">${owner.name}</a></p>
   </header>
   <main>
     <h2>About the Channel</h2>
     <p>${channel.description}</p>
-    <aside>
-      <h3>Interests</h3>
-      <ul>
-        ${channel.interests.map(interest => `<li>${interest}</li>`).join('')}
-      </ul>
-    </aside>
+    <aside>${interests}</aside>
   </main>
   <!-- Footer and additional content -->
+  <footer class="footer"></footer>
 </body>
 </html>`;
 }

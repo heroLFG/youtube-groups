@@ -19,7 +19,36 @@
                     "description": "Seeking the ideal.",
                     "interests": ["technology"]
                 }
+            ],
+            "youtube_interaction_videos": [
+                "https://www.youtube.com/watch?v=s1I4Vxv61QA"
             ]
+        },
+        {
+            "id": 2,
+            "name": "GrimGriz",
+            "youtube_channels": [
+                {
+                    "handle": "@GrimGriz",
+                    "description": "Even Broken Clocks are right twice a day."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Mercury.Black.",
+            "youtube_channels": [
+                {
+                    "handle": "@Mercury.Black."
+                }
+            ]
+        }
+    ],
+    "videos": [
+        {
+            "id": "s1I4Vxv61QA",
+            "link": "https://www.youtube.com/watch?v=s1I4Vxv61QA",
+            "date": "2021-01-01"
         }
     ]
 }
