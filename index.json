@@ -1,16 +1,26 @@
 {
     "people": [
         {
-            "id": 1,
             "name": "Gavin Palmer",
             "interests": [
                 "practicing loving people",
-                "technology"
+                "technology",
+                "play"
             ],
             "about": "Husband, Father, Engineer, and Christish",
             "youtube_attention_giving": [
                 "@PaulVanderKlay",
-                "@GrimGriz"
+                "@GrimGriz",
+                "@TheFridayMorningNameless7623",
+                "@WhiteStoneName",
+                "@JonathanDumeer",
+                "@mlts9984"
+            ],
+            "youtube_entertainment_list": [
+                "@delafetestimonies",
+                "@DryBarComedy",
+                "@magmidt",
+                "@AdamOndra"
             ],
             "youtube_channels": [
                 {
@@ -19,22 +29,14 @@
                     "interests": ["practicing loving people", "technology", "play"]
                 },
                 {
-                    "handle": "@herolfg",
+                    "handle": "@HeroLFG",
                     "description": "Seeking the ideal.",
                     "interests": ["technology"]
-                }
-            ],
-            "youtube_interaction_videos": [
-                "s1I4Vxv61QA"
-            ]
-        },
-        {
-            "id": 2,
-            "name": "GrimGriz",
-            "youtube_channels": [
+                },
                 {
-                    "handle": "@GrimGriz",
-                    "description": "Even Broken Clocks are right twice a day."
+                    "handle": "@FatDaddyEntertainment",
+                    "description": "Fun with friends and family.",
+                    "interests": ["play"]
                 }
             ],
             "youtube_interaction_videos": [
@@ -42,19 +44,6 @@
             ]
         },
         {
-            "id": 3,
-            "name": "Mercury.Black.",
-            "youtube_channels": [
-                {
-                    "handle": "@Mercury.Black."
-                }
-            ],
-            "youtube_interaction_videos": [
-                "s1I4Vxv61QA"
-            ]
-        },
-        {
-            "id": 4,
             "name": "Paul VanderKlay",
             "youtube_channels": [
                 {
@@ -69,6 +58,66 @@
                     "description": "Video from Living Stones CRC"
                 }
             ]
+        },
+        {
+            "name": "Chad (the Alcoholic)",
+            "youtube_channels": [
+                {
+                    "handle": "@thefridaymorningnameless7623"
+                }
+            ]
+        },
+        {
+            "name": "GrimGriz",
+            "youtube_channels": [
+                {
+                    "handle": "@GrimGriz",
+                    "description": "Even Broken Clocks are right twice a day."
+                }
+            ],
+            "youtube_interaction_videos": [
+                "s1I4Vxv61QA"
+            ]
+        },
+        {
+            "name": "Luke Thompson",
+            "youtube_channels": [
+                {
+                    "handle": "@WhiteStoneName",
+                    "description": "A video diary of intellectual musings. Mainly about God, faith, community, ontology. I ruminate & contemplate on things  in a circumambulating way. “When I talk about anything, I’m talking about everything.”"
+                }
+            ]
+        },
+        {
+            "name": "Jonathan Dumeer",
+            "youtube_channels": [
+                {
+                    "handle": "@JonathanDumeer"
+                }
+            ]
+        },
+        {
+            "name": "Michael Sartori",
+            "youtube_channels": [
+                {
+                    "handle": "@mlts9984",
+                    "description": "This channel is an act of faith and obedience. "
+                },
+                {
+                    "handle": "@TectonicSchool"
+                }
+            ]
+        },
+        {
+            "name": "Mercury.Black.",
+            "youtube_channels": [
+                {
+                    "handle": "@Mercury.Black."
+                }
+            ],
+            "youtube_interaction_videos": [
+                "s1I4Vxv61QA"
+            ]
         }
     ],
     "videos": {
@@ -78,7 +127,7 @@
             "title": "Sorting Myself Out with Mercury, Gavin, and GrimGriz",
             "link": "https://www.youtube.com/watch?v=s1I4Vxv61QA",
             "date": "2021-01-01",
-            "people": [1, 2, 3]
+            "people": ["Gavin Palmer", "Mercury.Black.", "GrimGriz"]
         }
     }
 }
