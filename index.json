@@ -49,7 +49,8 @@
                 "zUJ2jNxrlX8",
                 "q7clE0YFb3U",
                 "mPbUTVO2O8w",
-                "V6lwRfG9KXU"
+                "V6lwRfG9KXU",
+                "bpmjOwt7TC0"
             ]
         },
         {
@@ -178,7 +179,8 @@
             ],
             "youtube_interaction_videos": [
                 "xH1-4-Qepz8",
-                "V6lwRfG9KXU"
+                "V6lwRfG9KXU",
+                "bpmjOwt7TC0"
             ]
         },
         {
@@ -298,6 +300,14 @@
             "title": "The Anonymous King ‐ Jason and Gavin",
             "link": "https://www.youtube.com/watch?v=V6lwRfG9KXU",
             "date": "2021-11-23",
+            "people": ["Gavin Palmer", "Jason Delport"]
+        },
+        "bpmjOwt7TC0": {
+            "id": "bpmjOwt7TC0",
+            "channel": "@randosunited3288",
+            "title": "Building the World's Table - Jason, Gavin, and the project that might reform the world",
+            "link": "https://www.youtube.com/watch?v=bpmjOwt7TC0",
+            "date": "2021-12-08",
             "people": ["Gavin Palmer", "Jason Delport"]
         }
     }
