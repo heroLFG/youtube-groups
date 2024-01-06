@@ -43,7 +43,9 @@
                 "s1I4Vxv61QA",
                 "pvWVaMaljJE",
                 "pbj1ungrZQA",
-                "5kn9_QrVrPU"
+                "5kn9_QrVrPU",
+                "FoVca00pe_o",
+                "xH1-4-Qepz8"
             ]
         },
         {
@@ -93,7 +95,10 @@
                 }
             ],
             "youtube_interaction_videos": [
-                "s1I4Vxv61QA"
+                "s1I4Vxv61QA",
+                "pvWVaMaljJE",
+                "5kn9_QrVrPU",
+                "FoVca00pe_o"
             ]
         },
         {
@@ -158,6 +163,15 @@
                 "FhJV2Fpbovo",
                 "5kn9_QrVrPU"
             ]
+        },
+        {
+            "name": "Jason Delport",
+            "links": [
+                "https://convective-heat-engine.github.io/"
+            ],
+            "youtube_interaction_videos": [
+                "xH1-4-Qepz8"
+            ]
         }
     ],
     "videos": {
@@ -208,6 +222,22 @@
             "link": "https://www.youtube.com/watch?v=FhJV2Fpbovo",
             "date": "2021-01-01",
             "people": ["John Vervaeke", "Tyler Hollett"]
+        },
+        "FoVca00pe_o": {
+            "id": "FoVca00pe_o",
+            "channel": "@GrimGriz",
+            "title": "Crypto-Christ Frequency - GrimGriz/HeroLFG (Unedited)",
+            "link": "https://www.youtube.com/watch?v=FoVca00pe_o",
+            "date": "2021-10-28",
+            "people": ["Gavin Palmer", "GrimGriz"]
+        },
+        "xH1-4-Qepz8": {
+            "id": "xH1-4-Qepz8",
+            "channel": "@herolfg",
+            "title": "herolfg #43 - how to do peace on Earth",
+            "link": "https://www.youtube.com/watch?v=xH1-4-Qepz8",
+            "date": "2021-10-29",
+            "people": ["Gavin Palmer", "Jason Delport"]
         }
     }
 }

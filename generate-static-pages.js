@@ -9,13 +9,15 @@ function parseIndex() {
   const obj = JSON.parse(jsonData);
   obj.people.forEach(person => {
     people.push(person);
-    person.youtube_channels.forEach(channel => {
-      channel.owner = {
-        id: person.id,
-        name: person.name
-      };
-      channels.push(channel);
-    })
+    if (person.youtube_channels) {
+      person.youtube_channels.forEach(channel => {
+        channel.owner = {
+          id: person.id,
+          name: person.name
+        };
+        channels.push(channel);
+      })
+    }
   });
   return {
     people,
@@ -57,6 +59,16 @@ window.searchChannelsByInterests = searchChannelsByInterests;
 
 // Function to generate the HTML content for a person
 function generatePersonHTML(person, videos) {
+  console.log(person.name);
+  let links = '';
+  if (person.links) {
+    links = `
+    <h3>Links</h3>
+    <ul>
+      ${person.links.map(link => `<li><a href="${link}">${link}</a></li>`).join('')}
+    </ul>
+    `;
+  }
   let youtube_channels = '';
   if (person.youtube_channels) {
     youtube_channels = `
@@ -115,7 +127,7 @@ function generatePersonHTML(person, videos) {
     <h2>About</h2>
     <p>${person.about}</p>
   </div>
-  <main>${youtube_channels}${interests}${youtube_attention_giving}${youtube_interaction_videos}</main>
+  <main>${links}${youtube_channels}${interests}${youtube_attention_giving}${youtube_interaction_videos}</main>
   <!-- Footer and additional content -->
   <footer class="footer"></footer>
 </body>
