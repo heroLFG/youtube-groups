@@ -75,6 +75,15 @@ function generatePersonHTML(person, videos) {
     </ul>
     `;
   }
+  let youtube_attention_giving = '';
+  if (person.youtube_attention_giving) {
+    youtube_attention_giving = `
+    <h3>YouTube Attention Giving Self Report</h3>
+    <ul>
+      ${person.youtube_attention_giving.map(yt => `<li><a href="../channels/${yt.substring(1).toLowerCase()}.html">${yt}</a></li>`).join('')}
+    </ul>
+    `;
+  }
   let youtube_interaction_videos = '';
   if (person.youtube_interaction_videos) {
     youtube_interaction_videos = `
@@ -106,7 +115,7 @@ function generatePersonHTML(person, videos) {
     <h2>About</h2>
     <p>${person.about}</p>
   </div>
-  <main>${youtube_channels}${interests}${youtube_interaction_videos}</main>
+  <main>${youtube_channels}${interests}${youtube_attention_giving}${youtube_interaction_videos}</main>
   <!-- Footer and additional content -->
   <footer class="footer"></footer>
 </body>

@@ -8,6 +8,10 @@
                 "technology"
             ],
             "about": "Husband, Father, Engineer, and Christish",
+            "youtube_attention_giving": [
+                "@PaulVanderKlay",
+                "@GrimGriz"
+            ],
             "youtube_channels": [
                 {
                     "handle": "@RightInChrist",
@@ -47,6 +51,23 @@
             ],
             "youtube_interaction_videos": [
                 "s1I4Vxv61QA"
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Paul VanderKlay",
+            "youtube_channels": [
+                {
+                    "handle": "@PaulVanderKlay",
+                    "description": "I want to major in equipping those who follow me with the things that \"against such things there is no law\"."
+                },
+                {
+                    "handle": "@VanderKlips"
+                },
+                {
+                    "handle": "@livingstoneschristianrefor6073",
+                    "description": "Video from Living Stones CRC"
+                }
             ]
         }
     ],
