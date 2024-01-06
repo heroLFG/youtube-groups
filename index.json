@@ -40,7 +40,8 @@
                 }
             ],
             "youtube_interaction_videos": [
-                "s1I4Vxv61QA"
+                "s1I4Vxv61QA",
+                "pbj1ungrZQA"
             ]
         },
         {
@@ -109,6 +110,15 @@
             ]
         },
         {
+            "name": "Jacob Faturechi",
+            "youtube_channels": [
+                {
+                    "handle": "@faturechi",
+                    "description": "I mostly make videos about the Hebrew Bible."
+                }
+            ]
+        },
+        {
             "name": "Mercury.Black.",
             "youtube_channels": [
                 {
@@ -128,6 +138,14 @@
             "link": "https://www.youtube.com/watch?v=s1I4Vxv61QA",
             "date": "2021-01-01",
             "people": ["Gavin Palmer", "Mercury.Black.", "GrimGriz"]
+        },
+        "pbj1ungrZQA": {
+            "id": "pbj1ungrZQA",
+            "channel": "@herolfg",
+            "title": "Jacob Faturechi and Distributed Cognition",
+            "link": "https://www.youtube.com/watch?v=pbj1ungrZQA",
+            "date": "2021-02-27",
+            "people": ["Gavin Palmer", "Jacob Faturechi"]
         }
     }
 }

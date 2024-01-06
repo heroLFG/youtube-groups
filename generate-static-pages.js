@@ -89,7 +89,7 @@ function generatePersonHTML(person, videos) {
     youtube_interaction_videos = `
     <h3>YouTube Interaction Videos</h3>
     <ul>
-      ${person.youtube_interaction_videos.map(yt => `<li><a href="${videos[yt].link}">${videos[yt].title}</a></li>`).join('')}
+      ${person.youtube_interaction_videos.map(yt => `<li>${videos[yt].date} <a href="${videos[yt].link}">${videos[yt].title}</a></li>`).join('')}
     </ul>
     `;
   }
