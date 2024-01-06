@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account - YouTube Discovery App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="navigation-back">
+    <a href="index.html">&larr; Back to Home</a>
+  </div>
+  <div class="container">
+    <h1>Connect Your YouTube Channel</h1>
+    <p>Sign up to link your YouTube channel and start growing your presence.</p>
+
+    <!-- Sign Up Form -->
+    <div class="signup-form">
+
+      <!-- Google Sign In Button -->
+      <div class="form-action">
+        <button id="googleSignInButton">Sign up with Google</button>
+      </div>
+
+      <p style="text-align:center; margin-top: 15px;">After signing in, you'll be prompted to link your YouTube channel.</p>
+    </div>
+  </div>
+
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script>
+    // Placeholder function for the Google Sign-In callback
+    function onSignIn(googleUser) {
+      // The ID token you need to pass to your backend:
+      var id_token = googleUser.getAuthResponse().id_token;
+      console.log("ID Token: " + id_token);
+      // Here you would send the id_token to the server and link the user's YouTube channel
+    }
+  </script>
+
+</body>
+
+</html>

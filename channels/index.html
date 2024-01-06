@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Channels</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="../index.html">Home</a>
+        <a href='../people/index.html'>Discover People</a>
+        <a href='../channels/index.html' class="active">Discover Channels</a>
+    </div>
+    <!-- Hero Section -->
+    <div class="hero">
+        <p>Explore channels.</p>
+    </div>
+    <div id="search-results"></div>
+    <script src="../index.js"></script>
+    <script>
+        function getUrlFromHandle(handle) {
+            // Remove the '@' symbol and convert the handle to lowercase
+            const handleName = handle.substring(1).toLowerCase();
+
+            // Append '.html' to create the file name
+            return handleName + ".html";
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('dom loaded');
+            const interest = '';
+            const channelsList = window.searchChannelsByInterests(interest);
+
+            // Now render channelsList into the HTML
+            const resultsContainer = document.getElementById('search-results');
+
+            channelsList.forEach(channel => {
+                const url = getUrlFromHandle(channel.handle);
+                const channelElement = document.createElement('div');
+                channelElement.innerHTML = `<a href="${url}">${channel.handle}</a>`
+                resultsContainer.appendChild(channelElement);
+            });
+        });
+    </script>
+</body>
+
+</html>

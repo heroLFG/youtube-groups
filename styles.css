@@ -1,0 +1,353 @@
+:root {
+    /* Primary Palette */
+    --primary-color: #007bff;
+    --primary-hover-color: #0056b3;
+    --primary-light: #3399ff;
+    --primary-dark: #0056b3;
+
+    /* Secondary Palette */
+    --secondary-color: #ff851b;
+
+    /* Background Colors */
+    --background-color: #f8f9fa;
+    --section-background-light: #e9ecef;
+    --section-background-dark: #dee2e6;
+    --footer-background: #333;
+
+    /* Text Colors */
+    --text-color: #333;
+    --secondary-text-color: #666;
+    --link-color: var(--primary-color);
+    --link-hover-color: var(--primary-hover-color);
+
+    /* Form Elements */
+    --input-border-color: #ced4da;
+    --input-focus-border-color: #80bdff;
+    --placeholder-text-color: #6c757d;
+
+    /* Alerts */
+    --success-color: #28a745;
+    --error-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+
+    /* Navbar and Footer Links */
+    --navbar-link-color: #f8f9fa;
+    --navbar-link-hover-color: #d4d4d4;
+
+    /* Cookie Notification */
+    --cookie-background: #ffffe0;
+    --cookie-text-color: var(--text-color);
+}
+
+/* Buttons */
+button {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+button:hover {
+    background-color: var(--primary-hover-color);
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--footer-background);
+    color: var(--navbar-link-color);
+}
+
+.navbar a {
+    color: var(--navbar-link-color);
+}
+
+.navbar a:hover {
+    color: var(--navbar-link-hover-color);
+}
+
+/* Footer */
+footer {
+    background-color: var(--footer-background);
+    color: var(--text-color);
+}
+
+footer a {
+    color: var(--link-color);
+}
+
+footer a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Sections */
+.section-light {
+    background-color: var(--section-background-light);
+}
+
+.section-dark {
+    background-color: var(--section-background-dark);
+}
+
+/* Form Elements */
+input,
+textarea {
+    border: 1px solid var(--input-border-color);
+    color: var(--text-color);
+}
+
+input:focus,
+textarea:focus {
+    border-color: var(--input-focus-border-color);
+}
+
+::placeholder {
+    color: var(--placeholder-text-color);
+}
+
+/* Alerts */
+.alert-success {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.alert-error {
+    background-color: var(--error-color);
+    color: white;
+}
+
+.alert-warning {
+    background-color: var(--warning-color);
+    color: black;
+}
+
+.alert-info {
+    background-color: var(--info-color);
+    color: white;
+}
+
+/* Cookie Notification */
+.cookie-notification {
+    background-color: var(--cookie-background);
+    color: var(--cookie-text-color);
+}
+
+/* Base styles */
+body,
+h1,
+h2,
+h3,
+p,
+a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Ensure all elements have box-sizing: border-box; to include padding in width calculations */
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #333; */
+    padding: 10px 20px;
+    /* color: white; */
+}
+
+.navbar a {
+    /* color: white; */
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    /* background-color: #555; */
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: var(--primary-color);
+    color: var(--navbar-link-color);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    /* margin-bottom: 20px; */
+}
+
+/* Features Section */
+.features-overview {
+    /* background-color: var(--section-background-light); */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.feature-item {
+    width: 30%;
+}
+
+.feature-item h3 {
+    margin-bottom: 10px;
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+    /* background-color: #f8f9fa; */
+    background-color: var(--section-background-light);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials p {
+    margin-top: 15px;
+}
+
+.discover-others {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.be-discovered {
+    /* background-color: #f8f9fa; */
+    background-color: var(--section-background-light);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Footer Styles */
+.footer {
+    /* background-color: #333; */
+    /* color: white; */
+    background-color: var(--footer-background);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive design media query */
+@media (max-width: 768px) {
+    .features-overview {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .feature-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        /* Allows items to wrap onto the next line */
+        justify-content: center;
+        /* Center the items when wrapped */
+    }
+
+    .navbar a {
+        flex: 1 1 auto;
+        text-align: center;
+        /* Allow buttons to grow and shrink as needed */
+    }
+
+    .navbar a.active {
+        background-color: var(--primary-light);
+    }
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+}
+
+.form-action {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: var(--primary-color);
+    /* color: white; */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--primary-hover-color);
+}
+
+.footer a {
+    /* color: #FFFFFF; */
+    /* Adjust to a suitable color that contrasts with the footer background */
+    color: var(--navbar-link-color);
+    text-decoration: none;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    /* color: #CCCCCC; */
+    /* Adjust to a color for hover state */
+    color: var(--navbar-link-hover-color);
+}
+
+.navigation-back {
+    text-align: left;
+    /* or 'center' depending on your design */
+    margin: 10px;
+}
+
+.navigation-back a {
+    /* color: #007bff; */
+    /* Adjust to match your site's color scheme */
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navigation-back a:hover {
+    color: var(--primary-hover-color);
+    text-decoration: underline;
+    /* or change color to indicate it's clickable */
+}

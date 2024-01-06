@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover People</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <a href="../index.html">Home</a>
+        <a href='../people/index.html' class="active">Discover People</a>
+        <a href='../channels/index.html'>Discover Channels</a>
+    </div>
+    <!-- Hero Section -->
+    <div class="hero">
+        <p>Explore people.</p>
+    </div>
+    <div id="search-results"></div>
+    <script src="../index.js"></script>
+    <script>
+        function getUrlFromName(name) {
+            // Convert the name to lowercase and replace spaces with hyphens
+            const formattedName = name.toLowerCase().split(' ').join('-');
+
+            // Append '.html' to create the file name
+            return formattedName + ".html";
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('dom loaded');
+            const interest = '';
+            const peopleList = window.searchPeopleByInterests(interest);
+
+            // Now render channelsList into the HTML
+            const resultsContainer = document.getElementById('search-results');
+
+            peopleList.forEach(person => {
+                const url = getUrlFromName(person.name);
+                const personElement = document.createElement('div');
+                personElement.innerHTML = `<a href="${url}">${person.name}</a>`
+                resultsContainer.appendChild(personElement);
+            });
+        });
+    </script>
+</body>
+
+</html>
