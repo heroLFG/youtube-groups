@@ -81,6 +81,14 @@
       ]
     },
     {
+      "name": "DrLennyThyme",
+      "youtube_channels": [
+        {
+          "handle": "@DrLennyThyme"
+        }
+      ]
+    },
+    {
       "name": "Eric Seitz",
       "about": "Just a regular Catholic priest with a YouTube Channel",
       "youtube_channels": [
@@ -157,6 +165,9 @@
         {
           "handle": "@GrimGriz",
           "description": "Even Broken Clocks are right twice a day."
+        },
+        {
+          "handle": "@afterdark4452"
         }
       ],
       "youtube_interaction_videos": [
