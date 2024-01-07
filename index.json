@@ -133,6 +133,17 @@
       ]
     },
     {
+      "name": "Haris Neophytou",
+      "youtube_channels": [
+        {
+          "handle": "@UpCycleClub"
+        }
+      ],
+      "youtube_interaction_videos": [
+        "kGZq46wQaOQ"
+      ]
+    },
+    {
       "name": "Jacob Faturechi",
       "about": "I mostly make videos about the Hebrew Bible.",
       "youtube_channels": [
@@ -224,6 +235,9 @@
           "handle": "@TheMeaningCode",
           "description": "Mapping the universe through physics, art, economics, philosophy, and more.\n The search for meaning through connections from one domain of knowledge to another.\n Finding the code that connects the substructures of the universe."
         }
+      ],
+      "youtube_interaction_videos": [
+        "kGZq46wQaOQ"
       ]
     },
     {
@@ -518,6 +532,17 @@
       "people": [
         "Gavin Palmer",
         "Jason Delport"
+      ]
+    },
+    "kGZq46wQaOQ": {
+      "id": "kGZq46wQaOQ",
+      "channel": "@TheMeaningCode",
+      "title": "Haris Update on the Monster Group, plus Palindromic Morphogenesis",
+      "link": "https://www.youtube.com/watch?v=kGZq46wQaOQ",
+      "date": "2023-12-01",
+      "people": [
+        "Haris Neophytou",
+        "Karen Wong"
       ]
     },
     "1zYNrAYhvyc": {
