@@ -152,6 +152,14 @@ function generateChannelHTML(channel) {
     </ul>
 `;
   }
+  let about = '';
+  if (channel.about) {
+    about = `
+    <h2>About the Channel</h2>
+    <p>${channel.description}</p>
+    <aside>${interests}</aside>
+    `;
+  }
   const owner = channel.owner;
   return `
 <!-- generated code -->
@@ -170,12 +178,9 @@ function generateChannelHTML(channel) {
   <header>
     <h1>${channel.handle}</h1>
     <p>Owned by <a href="../people/${channel.owner.name.toLowerCase().split(' ').join('-')}.html">${owner.name}</a></p>
+    <p><a href="https://www.youtube.com/${channel.handle}">go to channel</a></p>
   </header>
-  <main>
-    <h2>About the Channel</h2>
-    <p>${channel.description}</p>
-    <aside>${interests}</aside>
-  </main>
+  <main>${about}</main>
   <!-- Footer and additional content -->
   <footer class="footer"></footer>
 </body>
