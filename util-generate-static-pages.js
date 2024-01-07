@@ -37,6 +37,7 @@ const people = ${peopleJsonString};
 const channels = ${channelsJsonString};
 
 function searchPeopleByInterests(interest) {
+  people.sort((a, b) => a.name.localeCompare(b.name));
   if (interest === '') {
       return people;
   }
@@ -44,6 +45,7 @@ function searchPeopleByInterests(interest) {
 }
 
 function searchChannelsByInterests(interest) {
+  channels.sort((a, b) => a.handle.localeCompare(b.handle));
   if (interest === '') {
       return channels;
   }
