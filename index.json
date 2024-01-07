@@ -9,6 +9,17 @@
       ]
     },
     {
+      "name": "Byrne Power",
+      "links": [
+        "https://twitter.com/anadromist"
+      ],
+      "youtube_channels": [
+        {
+          "handle": "@TheAnadromist"
+        }
+      ]
+    },
+    {
       "name": "Chad (the Alcoholic)",
       "youtube_channels": [
         {
@@ -16,6 +27,10 @@
         },
         {
           "handle": "@ChadTheAlcoholic"
+        },
+        {
+          "handle": "@chadA101",
+          "description": "Welcome, hope to explore and discuss 12 step recovery, spiritually, creativity, and whatever else pops up."
         }
       ],
       "youtube_interaction_videos": [
@@ -60,6 +75,14 @@
         {
           "handle": "@agapologia",
           "description": "Meditations on Love"
+        }
+      ]
+    },
+    {
+      "name": "Colton Kirby",
+      "youtube_channels": [
+        {
+          "handle": "@_coltonkirby"
         }
       ]
     },
@@ -189,6 +212,14 @@
       ]
     },
     {
+      "name": "I Am Magic",
+      "youtube_channels": [
+        {
+          "handle": "@magic1111"
+        }
+      ]
+    },
+    {
       "name": "Jacob Faturechi",
       "about": "I mostly make videos about the Hebrew Bible.",
       "youtube_channels": [
@@ -240,6 +271,16 @@
       ]
     },
     {
+      "name": "Jess Purviance",
+      "about": "Likes the Book of Job.",
+      "youtube_channels": [
+        {
+          "handle": "@JessPurviance",
+          "description": "The Book of Job"
+        }
+      ]
+    },
+    {
       "name": "John Vandonk",
       "youtube_channels": [
         {
@@ -273,10 +314,30 @@
       ]
     },
     {
+      "name": "Jordan Hall",
+      "links": [
+        "https://medium.com/deep-code"
+      ],
+      "youtube_channels": [
+        {
+          "handle": "@JordanGreenhall"
+        }
+      ]
+    },
+    {
       "name": "Kale Zelden",
       "youtube_channels": [
         {
           "handle": "@thekalezelden"
+        }
+      ]
+    },
+    {
+      "name": "Kara Nodrik",
+      "about": "I'm a curious person, who loves to make people laugh, even in hard times. Good conversations are precious to me!",
+      "youtube_channels": [
+        {
+          "handle": "@KaraNodrik"
         }
       ]
     },
@@ -359,6 +420,9 @@
       "youtube_channels": [
         {
           "handle": "@Mercury.Black."
+        },
+        {
+          "handle": "@PordanBJeterson"
         }
       ],
       "youtube_interaction_videos": [
@@ -455,6 +519,15 @@
       ]
     },
     {
+      "name": "Richard",
+      "about": "An amateur bridge-builder, lover of music, and first and foremost a disciple of Christ",
+      "youtube_channels": [
+        {
+          "handle": "@zurich5607"
+        }
+      ]
+    },
+    {
       "name": "Sam Tideman",
       "youtube_channels": [
         {
@@ -497,6 +570,22 @@
       ]
     },
     {
+      "name": "The Marylander",
+      "youtube_channels": [
+        {
+          "handle": "@the.marylander"
+        }
+      ]
+    },
+    {
+      "name": "tpv_tragula",
+      "youtube_channels": [
+        {
+          "handle": "@tpv_tragula"
+        }
+      ]
+    },
+    {
       "name": "Tyler Hollett",
       "youtube_channels": [
         {
@@ -507,6 +596,14 @@
         "GmGOqkHQCIk",
         "FhJV2Fpbovo",
         "5kn9_QrVrPU"
+      ]
+    },
+    {
+      "name": "Yosef",
+      "youtube_channels": [
+        {
+          "handle": "@einsofinfinitereflections9390"
+        }
       ]
     }
   ],
