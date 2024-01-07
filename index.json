@@ -47,6 +47,16 @@
       ]
     },
     {
+      "name": "Eric Seitz",
+      "about": "Just a regular Catholic priest with a YouTube Channel",
+      "youtube_channels": [
+        {
+          "handle": "@fatherbigmac",
+          "description": "Just a regular Catholic priest with a YouTube Channel"
+        }
+      ]
+    },
+    {
       "name": "Gavin Palmer",
       "interests": [
         "practicing loving people",
