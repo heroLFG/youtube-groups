@@ -163,6 +163,19 @@
       ]
     },
     {
+      "name": "Jeff P",
+      "youtube_channels": [
+        {
+          "handle": "@randosunited",
+          "description": "A place for live streams."
+        },
+        {
+          "handle": "randosunited3288",
+          "description": "Videos are submitted via email."
+        }
+      ]
+    },
+    {
       "name": "John Vandonk",
       "youtube_channels": [
         {
