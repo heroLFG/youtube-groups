@@ -1,6 +1,14 @@
 {
   "people": [
     {
+      "name": "Anselman",
+      "youtube_channels": [
+        {
+          "handle": "@anselman3156"
+        }
+      ]
+    },
+    {
       "name": "Chad (the Alcoholic)",
       "youtube_channels": [
         {
