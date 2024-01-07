@@ -73,6 +73,14 @@
       ]
     },
     {
+      "name": "Doctor Jim",
+      "youtube_channels": [
+        {
+          "handle": "@61jcfield"
+        }
+      ]
+    },
+    {
       "name": "Eric Seitz",
       "about": "Just a regular Catholic priest with a YouTube Channel",
       "youtube_channels": [
