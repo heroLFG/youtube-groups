@@ -1,6 +1,19 @@
 {
     "people": [
         {
+            "name": "Mark Lefebvre",
+            "youtube_channels": [
+                {
+                    "handle": "@NavigatingPatterns",
+                    "description": "Here I shall be discussing how to orient and navigate the patterns in the world.  This will include our usage of words, models for understand the world, and the best way to structure our ideas. Topics will include meaning, the Intimacy crisis, sense making in the world, models that helps us map reality.  How we use our language matters to how we interact in the world. The nature of meaning, definition, context all determine how well we can discern, judge and act!\n I'll be exploring lots of topics in videos alone, with others and livestreams!\n Come and join our community of sense making in this chaotic world!"
+                },
+                {
+                    "handle": "@marklefebvre5758",
+                    "description": "Just me talking about various things which are on my mind at one point or another. Stories, observations, nothing fancy."
+                }
+            ]
+        },
+        {
             "name": "Gavin Palmer",
             "interests": [
                 "practicing loving people",
@@ -88,6 +101,9 @@
             "youtube_channels": [
                 {
                     "handle": "@thefridaymorningnameless7623"
+                },
+                {
+                    "handle": "@ChadTheAlcoholic"
                 }
             ],
             "youtube_interaction_videos": [
@@ -124,6 +140,9 @@
                 {
                     "handle": "@JonathanDumeer"
                 }
+            ],
+            "youtube_interaction_videos": [
+                "1zYNrAYhvyc"
             ]
         },
         {
@@ -139,12 +158,31 @@
             ]
         },
         {
+            "name": "Chris McDonald",
+            "youtube_channels": [
+                {
+                    "handle": "@WavesOfObsession"
+                }
+            ],
+            "youtube_interaction_videos": [
+                "1zYNrAYhvyc"
+            ]
+        },
+        {
             "name": "Jacob Faturechi",
             "about": "I mostly make videos about the Hebrew Bible.",
             "youtube_channels": [
                 {
                     "handle": "@faturechi",
                     "description": "I mostly make videos about the Hebrew Bible."
+                }
+            ]
+        },
+        {
+            "name": "Tayo Falayi",
+            "youtube_channels": [
+                {
+                    "handle": "@teestrypzSOG"
                 }
             ]
         },
@@ -309,6 +347,14 @@
             "link": "https://www.youtube.com/watch?v=bpmjOwt7TC0",
             "date": "2021-12-08",
             "people": ["Gavin Palmer", "Jason Delport"]
+        },
+        "1zYNrAYhvyc": {
+            "id": "1zYNrAYhvyc",
+            "channel": "@WavesOfObsession",
+            "title": "Unscripted Conversation with @JonathanDumeer",
+            "link": "https://www.youtube.com/watch?v=1zYNrAYhvyc",
+            "date": "2023-12-26",
+            "people": ["Jonathan Dumeer", "Chris McDonald"]
         }
     }
 }
