@@ -126,7 +126,10 @@
       "interests": [
         "practicing loving people",
         "technology",
-        "play"
+        "play",
+        "marriage",
+        "parenting",
+        "teamwork"
       ],
       "about": "Husband, Father, Engineer, and Christish",
       "youtube_attention_giving": [
@@ -238,15 +241,6 @@
       ]
     },
     {
-      "name": "Jason (Almond Tree)",
-      "youtube_channels": [
-        {
-          "handle": "@almondtree",
-          "description": "Conversations. Testimonies. Journeys. Stories. Philosophy. Psychology. Religion. God knows what else.\n This has become a space to offer people a wide spectrum of beliefs, interests, opinions and stories. The conversations often center around biblical themes and narratives, but the goal is to present an open space for dialogue and understanding, and may in some instances be explicit. "
-        }
-      ]
-    },
-    {
       "name": "Jason Delport",
       "links": [
         "https://convective-heat-engine.github.io/"
@@ -255,6 +249,15 @@
         "xH1-4-Qepz8",
         "V6lwRfG9KXU",
         "bpmjOwt7TC0"
+      ]
+    },
+    {
+      "name": "Jason Schweizer",
+      "youtube_channels": [
+        {
+          "handle": "@almondtree",
+          "description": "Conversations. Testimonies. Journeys. Stories. Philosophy. Psychology. Religion. God knows what else.\n This has become a space to offer people a wide spectrum of beliefs, interests, opinions and stories. The conversations often center around biblical themes and narratives, but the goal is to present an open space for dialogue and understanding, and may in some instances be explicit. "
+        }
       ]
     },
     {
@@ -599,7 +602,7 @@
       ]
     },
     {
-      "name": "Yosef",
+      "name": "Yosef Razin",
       "youtube_channels": [
         {
           "handle": "@einsofinfinitereflections9390"
